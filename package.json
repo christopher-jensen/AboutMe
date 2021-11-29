@@ -1,0 +1,33 @@
+{
+  "name": "about-me-server",
+  "version": "1.0.0",
+  "description": "Server for website contanining my information",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christopher-jensen/AboutMe.git"
+  },
+  "keywords": [
+    "server",
+    "about",
+    "me",
+    "CV"
+  ],
+  "author": "Christopher Colberg Jensen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christopher-jensen/AboutMe/issues"
+  },
+  "homepage": "https://github.com/christopher-jensen/AboutMe#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "path": "^0.12.7",
+    "pug": "^3.0.2"
+  }
+}

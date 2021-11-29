@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../Scripts/AboutMeStart.js" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="../Assets/style.css">
+    <title>Christopher Colberg Jensen</title>
+</head>
+<nav class="fixed-top">
+<ul class="nav justify-content-center">
+    <li class="nav-item"><a class="nav-link" href="">Home</a></li>
+    <li class="nav-item"><a class="nav-link" href="./GameCounter.html">GameCounter</a></li>
+    <!-- <li class="nav-item"><a class="nav-link" href=>Contact</a></li> -->
+    <!-- <li class="nav-item"><a class="nav-link" href=>About</a></li> -->
+    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+</ul>
+</nav>
+<body>
+    <div class="container-fluid mt-5 float-left pt-4">
+        <div class="row">
+            <div class="col " id="whoAmI">
+                <h4 class="display-4 text-left" >Who am I?</h4>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 text-center h-50">
+                <img id="Me" src="../Assets/Mig_suit.jpg" class="rounded img-responsive float-md-right" width="100%">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row"></div>
+            <div class="col">
+                <h4 class="display-4 text-left">My Projects</h4>
+                <p>As part of my education the main task of each semester is to develop a software system within a given group. So
+                    far this has mounted in three different projects with the first being developed in C, the second in JavaScript, the third
+                    in C# and the fourth in Java. An important thing to note is that all projects <u>must</u> solve a real life issue to develop our skills in
+                    solving actual problems and working in teams as you would at real company.
+                </p>
+            </div>
+        </div>
+        <div class="row" id="projects">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="jumbotron">
+                    <h5 class="display-5">C - 1<sup>st</sup> Semester</h5>
+                    <hr class="my-4">
+                    <p>The purpose of the first semester was to learn imperative programming by developing a smaller system in C.
+                        It was decided that the system should help upcoming students in finding the right education. The need for this program
+                        stems from the fact that over time, many educations have seen the day of life hence the process of finding the right one
+                        becomes harder and harder.
+                    </p>
+                    <button type="button" id="1" class="btn program-button projectBtn">Education Helper</button>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="jumbotron">
+                    <h5 class="display-5">JavaScript - 2<sup>nd</sup> Semester</h5>
+                    <hr class="my-4">
+                    <p>In the second semester we were to build a web-application. Again it had to stem from a real life problem which lead
+                        to the development of a group movie recommender system meaning that the system would take multiple peoples' preferences
+                        into account instead of just one person. This project was developed before Netflix Party, but could be a great addition to it.
+                    </p>
+                    <button type="button" id="2" class="btn program-button projectBtn">Movie recommender</button>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="jumbotron">
+                    <h5 class="display-5">C# - 3<sup>rd</sup> Semester</h5>
+                    <hr class="my-4">
+                    <p>The third semester set out to teach me object oriented programming with basis in C#. This project presented a new and exciting
+                        challenge as we had to build an application for a company for them to use. This resulted in us developing an app to
+                        a company called <u><a href="https://www.sportstiming.dk/" class="inline-link">Sportstiming</a></u> that would facilitate
+                        their premium membership; Club Sportstiming.
+                    </p>
+                    <button type="button" id="3" class="btn program-button projectBtn">Club Sportstiming</button>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="jumbotron">
+                    <h5 class="display-5">Java - 4<sup>th</sup> Semester</h5>
+                    <hr class="my-4">
+                    <p>For the fourth semester was the most challenging, but also most giving semester as we had to make a compiler for a new programming language defined by ourselves. many different ideas were discussed, but due to our interest, but limited knowledge in functional programming
+                        we set out to make a functional language called Buff. Buff is a mathematical purpose language which set to build bridge for a beginner programmer by resembling mathematical notation.
+                        The compiler was written in Java using the <u><a href="https://www.antlr.org/" class="inline-link">ANTLR</a></u> framework.
+                    </p>
+                    <button type="button" id="4" class="btn program-button projectBtn">Buff compiler</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script></html>
